@@ -33,7 +33,7 @@ colnames(samp.proj) <- c("x","y")
 samp <- cbind(samp, samp.proj)
 
 # set desired location resolution in meters 
-res.pixel <- 50
+res.pixel <- 100
 lx <- ceiling(samp$x/res.pixel)*res.pixel
 ly <- ceiling(samp$y/res.pixel)*res.pixel
 
